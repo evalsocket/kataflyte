@@ -5,7 +5,7 @@
 `flytectl config init`{{execute HOST1}}
 
 ### Start Sandbox 
-`flytectl sandbox start --source=~/tutorials`{{execute HOST1}}
+`flytectl sandbox start --source=./ml_training`{{execute HOST1}}
 
 This deployment uses a kubernetes NodePort for Flyte ingress. Once deployed, you can access the Flyte console on any kubernetes node at http://{{ any kubernetes node }}:30081/console (note that it will take a moment to deploy).
 

@@ -4,6 +4,5 @@ curl -s https://raw.githubusercontent.com/flyteorg/flytectl/master/install.sh | 
 mv bin/flytectl /usr/local/bin/flytectl
 chmod a+x /usr/local/bin/flytectl
 
-mkdir ~/tutorials 
-git clone git@github.com:flyteorg/flytesnacks.git ~/tmp/flytesnacks
-mv ~/tmp/flytesnacks/cookbook/case_studies/ml_training/* ~/tutorials/ 
+git clone https://github.com/flyteorg/flytesnacks.git ~/tmp/flytesnacks
+mv ~/tmp/flytesnacks/cookbook/case_studies/ml_training ~/ 

@@ -21,7 +21,7 @@
       "text": "intro.md"
     }
   },
-  "files": [ "cookbook/case_studies/ml_training/pima_diabetes/diabetes.py", "cookbook/case_studies/ml_training/pima_diabetes/Dockerfile" ],
+  "files": [ "tutorials/cookbook/case_studies/ml_training/pima_diabetes/diabetes.py", "tutorials/cookbook/case_studies/ml_training/pima_diabetes/Dockerfile" ],
   "environment": {
     "hideintro": true,
     "uilayout": "editor-terminal",
