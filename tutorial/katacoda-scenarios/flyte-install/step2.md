@@ -7,9 +7,13 @@
 ### Start Sandbox 
 `flytectl sandbox start --source=./ml_training`{{execute HOST1}}
 
+### Setup example
+`cd ml_training/pima_diabetes`{{execute HOST1}}
+`pip install -r requirements.txt`{{execute HOST1}}
+`cd ../`{{execute HOST1}}
+
 
 ### Build docker image for 
-`cd ml_training`{{execute HOST1}}
 `flytectl sandbox exec -- docker build . --tag "myapp:v1" -f pima_diabetes/Dockerfile`{{execute HOST1}}
 
 ### Install pyflyte 
