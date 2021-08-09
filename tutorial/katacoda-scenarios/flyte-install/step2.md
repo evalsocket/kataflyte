@@ -7,9 +7,9 @@
 ### Start Sandbox 
 `flytectl sandbox start --source=./ml_training`{{execute HOST1}}
 
-This deployment uses a kubernetes NodePort for Flyte ingress. Once deployed, you can access the Flyte console on any kubernetes node at http://{{ any kubernetes node }}:30081/console (note that it will take a moment to deploy).
 
 ### Build docker image for 
+`cd ml_training`{{execute HOST1}}
 `flytectl sandbox exec -- docker build . --tag "myapp:v1" -f pima_diabetes/Dockerfile`{{execute HOST1}}
 
 ### Install pyflyte 
@@ -32,7 +32,7 @@ This deployment uses a kubernetes NodePort for Flyte ingress. Once deployed, you
 
 You can check workflow execution in flyteconsole 
 
-After All pods are in running condition then visit flyte console https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/console
+After this visit flyte console https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/console
 
 
 
