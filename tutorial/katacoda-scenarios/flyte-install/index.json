@@ -21,7 +21,6 @@
       "text": "intro.md"
     }
   },
-  "files": [ "ml_training/pima_diabetes/diabetes.py", "ml_training/pima_diabetes/Dockerfile" ],
   "environment": {
     "hideintro": true,
     "uilayout": "editor-terminal",
