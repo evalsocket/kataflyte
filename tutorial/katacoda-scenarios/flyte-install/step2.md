@@ -8,7 +8,7 @@ Since flytectl is already installed as part of the environment setup, you can di
 `flytectl config init`{{execute HOST1}}
 
 Next, start the sandbox.
-`flytectl sandbox start --source=./ml_training`{{execute HOST1}}
+`flytectl sandbox start --source=../ml_training`{{execute HOST1}}
 
 ## Build & Deploy the Application to Cluster
 
