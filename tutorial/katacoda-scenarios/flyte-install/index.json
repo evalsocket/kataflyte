@@ -4,6 +4,7 @@
   "details": {
     "steps": [{
         "title": "Step 1",
+        "code": "foreground.sh",
         "text": "step1.md"
       },{
         "title": "Step 2",
@@ -17,7 +18,6 @@
       "text": "finish.md"
     },
     "intro": {
-      "courseData": "foreground.sh",
       "text": "intro.md"
     }
   },
