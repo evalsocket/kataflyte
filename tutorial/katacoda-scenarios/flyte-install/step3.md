@@ -2,7 +2,7 @@
 
 Let's now understand how to register workflows when code changes are made.
 
-For illustration purposes, do a trivial code change in the code. Remove `test_split_ratio` as the workflow parameter and send it as a hard-coded argument.
+For illustration purposes, do a trivial code change in the code. Open `ml_training/pima_diabetes/diabetes.py`{{open}} and remove `test_split_ratio` as the workflow parameter and send it as a hard-coded argument.
 
 ```
 @workflow
