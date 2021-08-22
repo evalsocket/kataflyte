@@ -17,7 +17,7 @@
       "text": "finish.md"
     },
     "intro": {
-      "code": "foreground.sh",
+      "courseData": "foreground.sh",
       "text": "intro.md"
     }
   },
