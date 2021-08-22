@@ -31,10 +31,12 @@ Launch the workflow from CLI using Flytectl.
 1. Generate an execution spec file
 `flytectl get launchplan --project flytesnacks --domain development pima_diabetes.diabetes.diabetes_xgboost_model --latest --execFile exec_spec.yaml`{{execute HOST1}}
 
-2. Create an execution using the exec spec file
+2. Open `ml_training/exec_spec.yaml`{{open}} and change the value of input
+
+3. Create an execution using the exec spec file
 `flytectl create execution --project flytesnacks --domain development --execFile exec_spec.yaml`{{execute HOST1}}
 
-3. Visit the Flyte console at https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/console to view and monitor the workflow
+4. Visit the Flyte console at https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/console to view and monitor the workflow
 
 
 You have successfully packaged your workflow and tasks and pushed them to Flyte cluster. Next, let's dive into iteration.
