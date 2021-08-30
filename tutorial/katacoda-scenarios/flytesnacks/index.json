@@ -4,7 +4,6 @@
   "details": {
     "steps": [{
         "title": "Step 1",
-        "code": "foreground.sh",
         "text": "step1.md"
       },{
         "title": "Step 2",
@@ -12,8 +11,7 @@
       },{
         "title": "Step 3",
         "text": "step3.md"
-      }
-    ],
+      }],
     "finish": {
       "text": "finish.md"
     },
@@ -23,7 +21,7 @@
     }
   },
   "environment": {
-    "hideintro": true,
+    "hideintro": false,
     "uilayout": "editor-terminal",
     "showdashboard": true,
     "uisettings": "python",
